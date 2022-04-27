@@ -60,9 +60,27 @@ For more information see [here](https://scikit-learn.org/stable/modules/generate
 
 Advantages: 
 
+- Robust to outliers. And works well with non-linear data
+- Reduces risk of overfitting in DTs and improves their accuracy
+- Can be used both for classification as well as for regression problems.
+- Can work with both categorical and continuous variables.
+
+
 Disadvantages: 
 
+- Very resource-intensive as it sometimes builds hundreds of trees.
+- Takes a long time to train. 
+- Less explainable than Decision Trees.
+
+
 Assumptions:
+- Data does not have any specific distribution
+
+
+Reducing overfitting can be done with: 
+- Using more trees (since each tree is different to the other one)
+- Reduce the depth of each tree
+- Using cross-validation.
 
 # Welcome to GitHub Pages
 
