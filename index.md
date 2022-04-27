@@ -1,4 +1,4 @@
-# This is my new header
+## This is my new header
 
 ## Welcome to GitHub Pages
 
