@@ -27,6 +27,22 @@ Avoiding overfitting can be done with:
 - With cross-validation. However, be careful to (i) make sure there is not leakage from train to test set and (ii) be careful with time series.
 
 ## Random forest
+- These are built from decision trees
+- DTs are easy to build, use and interpret, but they are very inaccurate.
+- Random Forests combine decision trees
+
+### Steps for building the Random Forest
+1. Bootstrapping: We take the original dataset, and randomly select samples (instances). We _can_ select the same sample twice.
+2. Pick the root node: Create a DT using the bootsrapped dataset, but only consider a subset of (randomly selected) variables/columns, for the **root** node. 
+3. At each step of building the DT, use only a **random subset of variables**.
+4. Repeat steps 1 to 3. You can build as many trees as you want. 
+
+
+Advantages: 
+
+Disadvantages: 
+
+Assumptions:
 
 # Welcome to GitHub Pages
 
