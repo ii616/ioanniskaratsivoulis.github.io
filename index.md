@@ -2,6 +2,25 @@
 
 ## Logistic Regression
 - Used for binary classification problems
+
+Advantages: 
+- Straightforward to implement, explain, and computationally inexpensive to train.
+- In low dimensional datasets, it is less likely that logistic regression will overfit the data.
+- Overfitting in high dimensional datasets can be controlled using L1 and L2 regularisation.
+- Performs exceptionally well when the dataset is linearly separable.
+
+Disadvantages: 
+- It assumes that the datasets are linearly separable, which is seldom the case in real world data. Thus, cannot solve non-lienar problems.
+- Very likely to overfit the data in high dimensional datasets, where the number of features exceeds the number of observations.
+- The input variables cannot be correlated between one another. 
+- Cannot solve non-linear problems
+
+
+Assumptions:
+- The target variable is binary 
+- The features in the dataset are independent from one another.
+- There is a linear relationship between the independent and target variables. 
+
 ## Random forest
 
 # Welcome to GitHub Pages
