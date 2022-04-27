@@ -1,6 +1,10 @@
-## This is my new header
+# Machine Learning algorithms
 
-## Welcome to GitHub Pages
+## Logistic Regression
+- Used for binary classification problems
+## Random forest
+
+# Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/ii616/ioanniskaratsivoulis.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
