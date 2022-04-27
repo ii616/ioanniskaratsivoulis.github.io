@@ -23,7 +23,7 @@ Assumptions:
 - There is a linear relationship between the independent and target variables. 
 
 Avoiding overfitting can be done with:
-- Regulasiation, see [here](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression).
+- Regularisation, see [here](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression).
 - With cross-validation. However, be careful to (i) make sure there is not leakage from train to test set and (ii) be careful with time series.
 
 ## Random forest
