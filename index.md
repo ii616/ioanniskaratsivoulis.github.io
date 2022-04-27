@@ -43,6 +43,21 @@ Avoiding overfitting can be done with:
 3. Repeat for the remaining number of DTs.
 4. After we have evaluated the class of the new entry throughout all of the trees in our Random Forest, wee see which class has got the **most votes** and set this as the new entry's class. 
 
+### Evaluation of accuracy
+
+- Usually about 33% of the data does not go into the bootstrapped dataset. We can use this _out of bag_ data to evaluate the performance of the RF.
+- We measure accuracy with the proportion of correctly classified out-of-bag samples.
+
+
+
+### The hyperparameters are: 
+- Number of trees
+- Maximum depth of the tree
+- Criterion for splitting the nodes
+- Minimum and maximum number of features to consider when constructing the trees (to split the nodes). 
+
+For more information see [here](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
+
 Advantages: 
 
 Disadvantages: 
