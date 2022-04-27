@@ -37,6 +37,11 @@ Avoiding overfitting can be done with:
 3. At each step of building the DT, use only a **random subset of variables**.
 4. Repeat steps 1 to 3. You can build as many trees as you want. 
 
+### Classifying a new sample using the RF
+1. Get a new data entry
+2. Run it through one Decision Tree and record the output (Yes/no or 1/0). 
+3. Repeat for the remaining number of DTs.
+4. After we have evaluated the class of the new entry throughout all of the trees in our Random Forest, wee see which class has got the **most votes** and set this as the new entry's class. 
 
 Advantages: 
 
