@@ -2,6 +2,7 @@
 
 ## Logistic Regression
 - Used for binary classification problems
+- Implemented on scikit-learn.
 
 Advantages: 
 - Straightforward to implement, explain, and computationally inexpensive to train.
